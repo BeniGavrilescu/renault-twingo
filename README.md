@@ -3,7 +3,8 @@
 A simple web project dedicated to one of the most iconic and charming small cars ever made — the Renault Twingo.
 
 This is my first project and a fun way to practice HTML, CSS, and maybe some JavaScript while celebrating a car that proves personality comes in small packages.
-<img href="https://twingo.guide/assets/images/image28.jpg?v=bd5002c5">
+
+![alt text](https://twingo.guide/assets/images/image21.jpg?v=bd5002c5)
 
 ---
 
