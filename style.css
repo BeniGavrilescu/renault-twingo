@@ -1,6 +1,13 @@
+@font-face {
+  src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
+    format("woff2");
+  font-family: "Meta";
+  font-style: normal;
+  font-weight: normal;
+}
+
 html {
   scroll-behavior: smooth;
-  width: 1500px;
 }
 
 body {
@@ -16,7 +23,7 @@ body {
 .presentation video {
     width: 100%;
     height: 100%;
-    opacity: 60%;
+    opacity: 80%;
     position: relative;
     z-index: 0;
     display: flex;
@@ -38,6 +45,20 @@ body {
     font-size: 100px;
     font-weight: 900;
     text-align: center;
+    transition: all 0.5s;
+    -webkit-text-stroke: 4px #d6f4f4;
+    color: transparent;
+    box-sizing: border-box;
+}
+.presentation .title:hover {
+  text-shadow: 10px 10px 0px #84994F,
+    15px 15px 0px #fccb2c,
+    20px 20px 0px #FFE797,
+    25px 25px 0px #f47804,
+    45px 45px 10px #974107;
+  cursor: pointer;
+  font-variation-settings: "wght" 100, "ital" 0;
+  
 }
 .nav-bar {
     display: flex;
@@ -56,12 +77,13 @@ button {
   background-color: #FCB53B;
   color: black;
   font-weight: 900;
+  transition: all 0.2s;
 }
 
 
 button:hover {
     color: white;
-    transition: 0.2s;
+    font-variation-settings: "wght" 100, "ital" 0;
     cursor: pointer;
     box-shadow: 5px 5px black;
     top: 5px;
